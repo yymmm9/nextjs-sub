@@ -52,6 +52,38 @@ export default function Account() {
 
     console.log(user);
     console.log(subscription);
+    
+    const subscriptionId = subscription && subscription.prices.id;
+    const subscriptionStatus = subscription && subscription.prices.active;
+
+    console.log(subscriptionId);
+    console.log(subscriptionStatus);
+    
+    if(subscriptionStatus = "active" ){
+        switch (subscriptionId){
+          case prod_JARXNnlSvF4ruQ:
+            console.log("prod_JARXNnlSvF4ruQ");
+          
+          break;
+
+          case prod_JAUiZkzkxcML7P:
+            console.log("prod_JAUiZkzkxcML7P");
+
+          break;
+          
+          case prod_JAV4smYApJOCwJ:
+            console.log("prod_JAV4smYApJOCwJ");
+
+          break;
+          
+          case prod_JAV6cqLBTmknex:
+            console.log("prod_JAV6cqLBTmknex");
+
+          break;
+          
+        }
+      }
+
 
   return (
     <section className="bg-black mb-32">
