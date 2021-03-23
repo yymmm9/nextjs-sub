@@ -59,7 +59,7 @@ export default function Account() {
     console.log(subId);
     console.log(subStatus);
 
-    if(subStatus = "active" ){
+    if(subStatus == "active" ){
       console.log(subscriptionName);
         switch (subId){
           case prod_JARXNnlSvF4ruQ:
