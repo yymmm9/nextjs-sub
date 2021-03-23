@@ -53,8 +53,8 @@ export default function Account() {
     // console.log(user);
     // console.log(subscription);
     
-    const subId = subscription.prices.id;
-    const subStatus = subscription.prices.active;
+    const subId = subscription && subscription.prices.id;
+    const subStatus = subscription && subscription.prices.active;
 
     console.log(subId);
     console.log(subStatus);
