@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 
 import Button from '@/components/ui/Button';
 import GitHub from '@/components/icons/GitHub';
+import Google from '@/components/icons/Google';
 import Input from '@/components/ui/Input';
 import LoadingDots from '@/components/ui/LoadingDots';
 import Logo from '@/components/icons/Logo';
