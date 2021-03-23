@@ -174,7 +174,7 @@ const SignIn = () => {
           disabled={loading}
           onClick={() => handleOAuthSignIn('google')}
         >
-          <GitHub />
+          <Google />
           <span className="ml-2">Continue with Google</span>
         </Button>
       </div>
