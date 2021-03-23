@@ -62,23 +62,23 @@ export default function Account() {
     if(subStatus == true){
       console.log(subscriptionName);
         switch (subId){
-          case subId = "prod_JARXNnlSvF4ruQ":
-            console.log("prod_JARXNnlSvF4ruQ");
+          case prod_JARXNnlSvF4ruQ:
+            console.log("something here");
           
           break;
 
-          case subId = "prod_JAUiZkzkxcML7P":
-            console.log("prod_JAUiZkzkxcML7P");
+          case prod_JAUiZkzkxcML7P:
+            console.log("something here");
 
           break;
           
-          case subId = "prod_JAV4smYApJOCwJ":
-            console.log("prod_JAV4smYApJOCwJ");
+          case prod_JAV4smYApJOCwJ:
+            console.log("something here");
 
           break;
           
-          case subId = "prod_JAV6cqLBTmknex":
-            console.log("prod_JAV6cqLBTmknex");
+          case prod_JAV6cqLBTmknex:
+            console.log("something here");
 
           break;
           
