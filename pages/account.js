@@ -53,14 +53,14 @@ export default function Account() {
     console.log(user);
     console.log(subscription);
     
-    const subscriptionId = subscription && subscription.prices.id;
-    const subscriptionStatus = subscription && subscription.prices.active;
+    const subId = subscription && subscription.prices.id;
+    const subStatus = subscription && subscription.prices.active;
 
-    console.log(subscriptionId);
-    console.log(subscriptionStatus);
-    
+    console.log(subId);
+    console.log(subStatus);
+
     if(subscriptionStatus = "active" ){
-        switch (subscriptionId){
+        switch (subId){
           case prod_JARXNnlSvF4ruQ:
             console.log("prod_JARXNnlSvF4ruQ");
           
