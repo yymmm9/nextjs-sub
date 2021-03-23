@@ -50,6 +50,8 @@ export default function Account() {
       minimumFractionDigits: 0
     }).format(subscription.prices.unit_amount / 100);
 
+    console.log(user);
+
   return (
     <section className="bg-black mb-32">
       <div className="max-w-6xl mx-auto pt-8 sm:pt-24 pb-8 px-4 sm:px-6 lg:px-8">
