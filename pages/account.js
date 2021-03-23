@@ -51,6 +51,7 @@ export default function Account() {
     }).format(subscription.prices.unit_amount / 100);
 
     console.log(user);
+    console.log(subscription);
 
   return (
     <section className="bg-black mb-32">
