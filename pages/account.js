@@ -50,16 +50,17 @@ export default function Account() {
       minimumFractionDigits: 0
     }).format(subscription.prices.unit_amount / 100);
 
-    console.log(user);
-    console.log(subscription);
+    // console.log(user);
+    // console.log(subscription);
     
-    const subId = subscription && subscription.prices.id;
-    const subStatus = subscription && subscription.prices.active;
+    const subId = subscription.prices.id;
+    const subStatus = subscription.prices.active;
 
     console.log(subId);
     console.log(subStatus);
 
     if(subscriptionStatus = "active" ){
+      console.log(subscriptionName);
         switch (subId){
           case prod_JARXNnlSvF4ruQ:
             console.log("prod_JARXNnlSvF4ruQ");
@@ -82,6 +83,8 @@ export default function Account() {
           break;
           
         }
+      }else{
+        console.log("none")
       }
 
 
