@@ -61,28 +61,28 @@ export default function Account() {
 
     if(subStatus == true){
       console.log(subscriptionName);
-        switch (subId){
-          case prod_JARXNnlSvF4ruQ:
-            console.log("something here");
+        // switch (subId){
+        //   case prod_JARXNnlSvF4ruQ:
+        //     console.log("something here");
           
-          break;
+        //   break;
 
-          case prod_JAUiZkzkxcML7P:
-            console.log("something here");
+        //   case prod_JAUiZkzkxcML7P:
+        //     console.log("something here");
 
-          break;
+        //   break;
           
-          case prod_JAV4smYApJOCwJ:
-            console.log("something here");
+        //   case prod_JAV4smYApJOCwJ:
+        //     console.log("something here");
 
-          break;
+        //   break;
           
-          case prod_JAV6cqLBTmknex:
-            console.log("something here");
+        //   case prod_JAV6cqLBTmknex:
+        //     console.log("something here");
 
-          break;
+        //   break;
           
-        }
+        // }
       }else{
         console.log("none")
       }
