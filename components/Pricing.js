@@ -111,9 +111,13 @@ export default function Pricing({ products }) {
                 className={cn(
                   'product-item rounded-lg shadow-sm divide-y divide-accents-2 bg-primary-2',
                   {
-                    'border border-pink': subscription
-                      ? product.name === subscription?.prices?.products.name
-                      : product.name === 'Very Early Birds'
+                    'active-subscription': product.name === subscription?.prices?.products.name
+
+                    // subscription
+                    //   ? product.name === subscription?.prices?.products.name
+                    //   : product.name === 'Very Early Birds'
+                  },{
+                    'border border-pink': product.name === 'Very Early Birds'
                   }
                 )}
               >
