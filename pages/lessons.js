@@ -13,10 +13,10 @@ import { useUser } from '@/utils/useUser';
 import { postData } from '@/utils/helpers';
 
 
-const lv1 = prod_JAUiZkzkxcML7P;
-const lv2 = prod_JAV4smYApJOCwJ;
-const lv3 = prod_JARXNnlSvF4ruQ;
-const lv4 = prod_JAV6cqLBTmknex;
+const lv1 = "prod_JAUiZkzkxcML7P";
+const lv2 = "prod_JAV4smYApJOCwJ";
+const lv3 = "prod_JARXNnlSvF4ruQ";
+const lv4 = "prod_JAV6cqLBTmknex";
 
 function Card({ title, description, footer, children }) {
   return (
@@ -63,7 +63,7 @@ export default function Account() {
 
     // console.log(user);
     // console.log(subscription);
-    x
+    
     const subId = subscription && subscription.prices.product_id;
     const subStatus = subscription && subscription.prices.active;
 
