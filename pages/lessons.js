@@ -77,28 +77,33 @@ export default function Account() {
         return (
             <section>
                 <p>none here</p>
-                <Lessons1 />
+                <Lesson1 />
             </section>
         )
     }else if(subId == lv2){
         return (
             <section>
-                <Lessons2 />
+                <Lesson2 />
             </section>
         )
     }else if(subId == lv3){
         return (
             <section>
-                <Lessons3 />
+                <Lesson3 />
             </section>
         )
     }else if(subId == lv4){
         return (
             <section>
-                <Lessons4 />
+                <Lesson4 />
             </section>
         )
     }else{
+       return(
+        <section>
+                <p>noneee here</p>
+            </section>
+       );
         alert(error.message);
     }
         // switch (subId){

@@ -1,10 +1,10 @@
 // import Link from 'next/link';
 // import s from './Navbar.module.css';
 
-import { useUser } from '@/utils/useUser';
+// import { useUser } from '@/utils/useUser';
 
 const lesson4 = () => {
-  const { user, signOut } = useUser();
+  // const { user, signOut } = useUser();
 
   return (
     <section>
