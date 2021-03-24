@@ -32,7 +32,7 @@ function Card({ title, description, footer, children }) {
     </div>
   );
 }
-export default function Account() {
+function Account() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { userLoaded, user, session, userDetails, subscription } = useUser();
@@ -104,7 +104,7 @@ export default function Account() {
                 <p>noneee here</p>
             </section>
        );
-        alert(error.message);
+        // alert(error.message);
     }
         // switch (subId){
         //   case prod_JARXNnlSvF4ruQ:
