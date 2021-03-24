@@ -100,38 +100,12 @@ export default function Account() {
         )
     }else{
        return(
-        <section>
+            <section>
                 <p>noneee here</p>
             </section>
        );
-        // alert(error.message);
+
     }
-        // switch (subId){
-        //   case prod_JARXNnlSvF4ruQ:
-        //     console.log("something here");
-          
-        //   break;
-
-        //   case prod_JAUiZkzkxcML7P:
-        //     console.log("something here");
-
-        //   break;
-          
-        //   case prod_JAV4smYApJOCwJ:
-        //     console.log("something here");
-
-        //   break;
-          
-        //   case prod_JAV6cqLBTmknex:
-        //     console.log("something here");
-
-        //   break;
-          
-        // }
-    //   }else{
-    //     router.replace('/pricing');
-    //   }
-
-
+      
   
 }}

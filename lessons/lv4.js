@@ -4,7 +4,6 @@
 // import { useUser } from '@/utils/useUser';
 
 const lesson4 = () => {
-  // const { user, signOut } = useUser();
 
   return (
     <section>
