@@ -7,11 +7,10 @@
 @tailwind utilities;
 
 .active-subscription{
-    --border-width: 3px;
     position: relative;
-    border-radius: var(--border-width);
   }
   .active-subscription::after {
+    --border-width: 1px;
     position: absolute;
     content: "";
     top: calc(-1 * var(--border-width));
@@ -32,7 +31,7 @@
     );
     background-size: 300% 300%;
     background-position: 0 50%;
-    border-radius: calc(2 * var(--border-width));
+    border-radius: .5rem;
     animation: moveGradient 4s alternate infinite;
   }
   
