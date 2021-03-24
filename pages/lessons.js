@@ -2,10 +2,10 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 
-import Lesson1 from '/lessons/lv1';
-import Lesson2 from '/lessons/lv2.js';
-import Lesson3 from '/lessons/lv3.js';
-import Lesson4 from '/lessons/lv4.js';
+import Lesson1 from '../lessons/lv1';
+import Lesson2 from '../lessons/lv2.js';
+import Lesson3 from '../lessons/lv3.js';
+import Lesson4 from '../lessons/lv4.js';
 
 import LoadingDots from '@/components/ui/LoadingDots';
 import Button from '@/components/ui/Button';
