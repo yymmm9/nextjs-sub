@@ -2,7 +2,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useState, useEffect } from 'react';
 
-import Lesson1 from '@/lessons/lv1';
+// import Lesson1 from '@/lessons/lv1';
 import Lesson2 from '@/lessons/lv2.js';
 import Lesson3 from '@/lessons/lv3.js';
 import Lesson4 from '@/lessons/lv4.js';
@@ -76,25 +76,26 @@ export default function Account() {
       if(subId == lv1){
         return (
             <section>
-                <Lessonslv1 />
+                <p>none here</p>
+                {/* <Lessons1 /> */}
             </section>
         )
     }else if(subId == lv2){
         return (
             <section>
-                <Lessonslv2 />
+                <Lessons2 />
             </section>
         )
     }else if(subId == lv3){
         return (
             <section>
-                <Lessonslv3 />
+                <Lessons3 />
             </section>
         )
     }else if(subId == lv4){
         return (
             <section>
-                <Lessonslv4 />
+                <Lessons4 />
             </section>
         )
     }else{
