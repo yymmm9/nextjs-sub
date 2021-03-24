@@ -6,6 +6,12 @@
 
 @tailwind utilities;
 
+
+.pricing-container{
+    position: relative;
+    z-index: 0;
+}
+
 .active-subscription{
     position: relative;
   }
