@@ -37,9 +37,9 @@ export default function Account() {
   const router = useRouter();
   const { userLoaded, user, session, userDetails, subscription } = useUser();
 
-  useEffect(() => {
-    if (!user) router.replace('/signin');
-  }, [user]);
+//   useEffect(() => {
+//     if (!user) router.replace('/signin');
+//   }, [user]);
 
   const redirectToCustomerPortal = async () => {
     setLoading(true);
