@@ -32,7 +32,7 @@ function Card({ title, description, footer, children }) {
     </div>
   );
 }
-function Account() {
+default export function Account() {
   const [loading, setLoading] = useState(false);
   const router = useRouter();
   const { userLoaded, user, session, userDetails, subscription } = useUser();
