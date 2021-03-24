@@ -74,6 +74,7 @@ export default function Account() {
       console.log(subscriptionName);
 
       if(subId == lv1){
+        console.log("lv1");
         return (
             <section>
                 <p>none here</p>
@@ -81,24 +82,28 @@ export default function Account() {
             </section>
         )
     }else if(subId == lv2){
+        console.log("lv2");
         return (
             <section>
                 <Lesson2 />
             </section>
         )
     }else if(subId == lv3){
+        console.log("lv3");
         return (
             <section>
                 <Lesson3 />
             </section>
         )
     }else if(subId == lv4){
+        console.log("lv4");
         return (
             <section>
                 <Lesson4 />
             </section>
         )
     }else{
+        console.log("last");
        return(
             <section>
                 <p>noneee here</p>
@@ -106,6 +111,14 @@ export default function Account() {
        );
 
     }
+}else{
+    console.log("sub not active");
+    return(
+        <section>
+            <p>subscription not active</p>
+        </section>
+    );
+    }
       
   
-}}
+}
